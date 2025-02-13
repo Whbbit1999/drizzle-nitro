@@ -1,0 +1,38 @@
+@uri=http://localhost:4000/api/user
+
+### Get all users
+GET {{uri}}
+
+content-type: application/json
+
+### Create a user
+POST {{uri}}
+
+content-type: application/json
+
+{
+    "username": "John Doe",
+    "email": "john.doe@example.com",
+    "password": "password123"
+}
+
+### Get a user by id
+GET {{uri}}/1
+
+content-type: application/json
+
+### Update a user
+PUT {{uri}}/1
+
+content-type: application/json
+
+{
+    "username": "Jane Doe 002",
+    "email": "jane.doe@example.com",
+    "password": "password123"
+}
+
+### Delete a user
+DELETE {{uri}}/1
+
+content-type: application/json

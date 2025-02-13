@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nitro build",
+    "dev": "PORT=4000 nitro dev",
+    "prepare": "nitro prepare",
+    "preview": "node .output/server/index.mjs",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.30.4",
+    "nitropack": "latest"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.39.3",
+    "drizzle-zod": "^0.7.0"
+  }
+}
