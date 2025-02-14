@@ -2,13 +2,11 @@
 
 ### Get all users
 GET {{uri}}
-
-content-type: application/json
+Content-Type: application/json
 
 ### Create a user
 POST {{uri}}
-
-content-type: application/json
+Content-Type: application/json
 
 {
     "username": "John Doe",
@@ -18,13 +16,11 @@ content-type: application/json
 
 ### Get a user by id
 GET {{uri}}/1
-
-content-type: application/json
+Content-Type: application/json
 
 ### Update a user
 PUT {{uri}}/1
-
-content-type: application/json
+Content-Type: application/json
 
 {
     "username": "Jane Doe 002",
@@ -34,5 +30,4 @@ content-type: application/json
 
 ### Delete a user
 DELETE {{uri}}/1
-
-content-type: application/json
+Content-Type: application/json

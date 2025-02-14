@@ -23,6 +23,12 @@ pnpm run db:generate && pnpm run db:migrate && pnpm run db:push
 pnpm run dev
 ```
 
+5. 查看数据表内容
+
+```shell
+pnpm run db:studio
+```
+
 ### Demo 提供的接口
 
 1. 新增用户 POST /api/user
