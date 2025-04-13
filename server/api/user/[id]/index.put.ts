@@ -1,6 +1,13 @@
-import { user } from "../../../db/schema"
-import { db } from "../../../db"
+import { user } from "~~/db/schema"
+import { db } from "~~/db"
 import { eq } from "drizzle-orm"
+
+defineRouteMeta({
+  openAPI: {
+    tags: ['user'],
+    summary: 'Update user',
+  }
+})
 
 export default defineEventHandler(async (event) => {
   const body = await readBody(event)

@@ -1,4 +1,11 @@
-import { db } from "../../../db"
+import { db } from "~~/db"
+
+defineRouteMeta({
+  openAPI: {
+    tags: ['user'],
+    summary: 'Get user by id',
+  }
+})
 
 export default defineEventHandler(async (event) => {
   const id = getRouterParam(event, 'id')

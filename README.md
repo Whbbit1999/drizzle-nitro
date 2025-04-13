@@ -31,6 +31,8 @@ pnpm run db:studio
 
 ### Demo 提供的接口
 
+> 在线文档：`http://localhost:4000/_scalar`
+
 1. 新增用户 POST /api/user
 2. 查询所有用户 GET /api/user
 3. 根据 id 查询用户 GET /api/user/1

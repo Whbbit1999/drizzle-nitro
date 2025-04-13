@@ -11,13 +11,13 @@
     "db:studio": "drizzle-kit studio"
   },
   "devDependencies": {
-    "drizzle-kit": "^0.30.4",
-    "nitropack": "latest"
+    "drizzle-kit": "^0.30.6",
+    "nitropack": "^2.11.9"
   },
   "dependencies": {
     "@libsql/client": "^0.14.0",
-    "dotenv": "^16.4.7",
+    "dotenv": "^16.5.0",
     "drizzle-orm": "^0.39.3",
-    "drizzle-zod": "^0.7.0"
+    "drizzle-zod": "^0.7.1"
   }
 }
